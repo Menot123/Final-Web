@@ -1,0 +1,242 @@
+/* Navigation  */
+
+.top-main {
+    height: 500px;
+    /* background-size: 100%; */
+    /* background-image:url('assets/images/banner/contact_banner.png'); */
+    background-repeat: no-repeat;
+}
+
+.top-all {
+    background-color: rgba(0, 0, 0, -0.5);
+    height: 100px;
+    position: relative;
+}
+
+.logo {
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    right: 45%;
+    top: -24%;
+    position: absolute;
+}
+
+.two-button {
+    position: absolute;
+    top: 40px;
+    left: 113px;
+}
+
+.carts {
+    width: 300px;
+    position: absolute;
+    top: 40px;
+    right: 0px;
+}
+
+.login-logout {
+    color: aliceblue;
+}
+
+.title-contact-luna {
+    position: absolute;
+    left: 50%;
+    /* transform: translateX(-50%); */
+    top: 240%;
+    color: aliceblue;
+    font-size: 60px;
+}
+
+
+/* End Navigation */
+
+
+/* Body  */
+
+
+/* Information Hotel */
+
+.media {
+    display: flex;
+}
+
+.media-body {
+    flex: 1;
+}
+
+.contact-info__icon i,
+.contact-info__icon span {
+    color: #8f9195;
+    font-size: 27px;
+}
+
+.contact-info {
+    margin-bottom: 25px;
+}
+
+.contact-info .media-body h3 {
+    font-size: 16px;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #2a2a2a;
+}
+
+.contact-info__icon {
+    margin-right: 20px;
+}
+
+.contact-info .media-body p {
+    color: #8a8a8a;
+}
+
+
+/* Information Hotel */
+
+
+/* Form Request  */
+
+.contact-title {
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.form-contact .form-control {
+    border: 1px solid #e5e6e9;
+    border-radius: 0px;
+    height: 48px;
+    padding-left: 18px;
+    font-size: 13px;
+    background: transparent;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.boxed-btn {
+    background: #fff;
+    color: #131313;
+    display: inline-block;
+    padding: 18px 44px;
+    /* font-family: "Raleway",sans-serif; */
+    font-size: 14px;
+    font-weight: 400;
+    border: 0;
+    border: 1px solid #009DFF;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #009DFF !important;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.boxed-btn:hover {
+    background: #009DFF;
+    color: #fff !important;
+    border: 1px solid #009DFF;
+}
+
+
+/* Form Request  */
+
+
+/* Header */
+
+div.fixed {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 3;
+}
+
+
+/* Dropdown For User Change Pass */
+
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropbtn:hover {
+    color: blue;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 320px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 30px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.me-2 {
+    border-color: green;
+}
+
+.d-flex {
+    margin-top: 20px;
+}
+
+
+/* Change Pass CSS */
+
+#logreg-forms {
+    width: 412px;
+    margin: 10vh auto;
+    background-color: #f3f3f3;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+#logreg-forms form {
+    width: 100%;
+    max-width: 410px;
+    padding: 15px;
+    margin: auto;
+}
+
+#logreg-forms .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
